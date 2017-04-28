@@ -3,20 +3,43 @@
 }
 
 body {
-  color: rgb(203, 208, 216);
-  background-color: rgb(135, 162, 209);
+  color: #FAFAFA;
+  font-family: "Open Sans";
+  background-image: url(../img/background.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-shadow: black 0.2em 0.2em 0.2em;
 }
 
 .jumbotron {
-  background-color: rgb(16, 48, 104);
+  background-color: rgba(16, 48, 104, .75);
+  border-radius: 100px;
+  max-width: 70%;
+  margin: auto;
 }
 
 .well {
-  background-color: rgb(94, 98, 104);
+  background-color: rgba(128,128,128, .75);
+  border-radius: 100px;
+  max-width: 80%;
+  margin: auto;
+}
+
+.well p {
+  font-size: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.well h2 {
+  font-weight: bolder;
 }
 
 #track {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .center {
@@ -33,11 +56,41 @@ body {
 }
 
 .center a:hover {
-  background-color: #4d4d4d;
-  border-radius: 3px;
+  background-color: rgba(115,115,115, .3);
+  border-radius: 5px;
 }
 
 .center a:active {
-  background-color: #404040;
-  border-radius: 3px;
+  background-color: rgba(102,102,102, .3);
+  border-radius: 5px;
+}
+
+.alert {
+  margin-top: 50px;
+}
+
+.btn {
+  display:block; /* change this from inline-block */
+  width:20%; /* setting the width */
+  margin:0 auto; /* this will center  it */
+  position:relative;
+  font-style:normal;
+  font-weight:normal;
+  font-family:"Open Sans";
+  font-size:40px;
+  outline:none;
+  color:#fff;
+  border:none;
+  text-decoration:none;
+  text-align:center;
+  cursor:pointer;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  border-radius:50px;
+  background-color:rgba(16, 48, 104, .75);
+  border-bottom:1px solid #7b8b2f;
+}
+
+.selection {
+  margin-left: auto;
 }

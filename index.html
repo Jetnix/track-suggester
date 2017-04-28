@@ -8,89 +8,102 @@
     <title>Track Suggester</title>
   </head>
   <body>
-    <div class= "jumbotron">
-      <div class="container">
-      <center><h1>Which Epicodus track could be right for you?</h1></center>
+    <div class="row">
+      <div class="col-md-12">
+        <div class= "jumbotron">
+          <div class="container">
+          <center><h1>Which Epicodus track could be right for you?</h1></center>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="well">
-      <div class="container">
-        <form id="questions">
-          <div class="radio">
-            <h2>Question 1: Which enviroment fits you more?</h2>
-            <p><input type="radio" name="ques1" value="csphp">
-            A large company, working with a large group</p>
-            <p><input type="radio" name="ques1" value="ruby">
-            A small company. working with small team of people</p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="well">
+          <div class="container">
+            <form id="questions">
+              <div class="radio">
+                <h2>Question 1: Which enviroment fits you more?</h2>
+                <p class="selections"><input type="radio" name="ques1" value="csphp">
+                A large company, working with a large group</p>
+                <p class="selections"><input type="radio" name="ques1" value="ruby">
+                A small company. working with small team of people</p>
 
-            <h2>Question 2: What would you prefer to work on?</h2>
-            <p><input type="radio" name="ques2" value="php">
-            Websites</p>
-            <p><input type="radio" name="ques2" value="ruby">
-            Applications</p>
-            <p><input type="radio" name="ques2" value="cs">
-            Internal Software</p>
+                <h2>Question 2: What would you prefer to work on?</h2>
+                <p class="selections"><input type="radio" name="ques2" value="php">
+                Websites</p>
+                <p class="selections"><input type="radio" name="ques2" value="ruby">
+                Applications</p>
+                <p class="selections"><input type="radio" name="ques2" value="cs">
+                Internal Software</p>
 
-            <h2>Question 3: What is priority for you?</h2>
-            <p><input type="radio" name="ques3" value="cs">
-            Function over form</p>
-            <p><input type="radio" name="ques3" value="ruby">
-            Staying up to date</p>
-            <p><input type="radio" name="ques3" value="php">
-            Easily understanding something</p>
+                <h2>Question 3: What is priority for you?</h2>
+                <p class="selections"><input type="radio" name="ques3" value="cs">
+                Function over form</p>
+                <p class="selections"><input type="radio" name="ques3" value="ruby">
+                Staying up to date</p>
+                <p class="selections"><input type="radio" name="ques3" value="php">
+                Easily understanding concepts</p>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg">Results</button>
+            </form>
+
+            <center><h2 id ="try">Try looking in to...</h2></center>
+
+            <div class="cs" id="track">
+              <center><img src= "img/cs.png" style="width: 375px;height:375px"></center>
+              <p>
+                C# is developed to be used for Microsofts NET framework, which runs primarily on Microsoft Windows.
+
+                C# is used for web development, game development, and general Microsoft development. Although Microsoft was not known for being cross-platform compatible in the past, Xamarin has been working on an open-source project called Mono, which aims to port C# to other platforms and bring better development tools to Linux developers. Recently you can also use C# to build native mobile apps for iOS and Android through Xamarin.
+              </p>
+              <p class="center">
+                Try doing your own research to see if this is a good fit for you!
+              </p>
+              <h2 class="center">Resources<h2>
+                <p class="center"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">Wikipedia Page</a></p>
+                <p class="center"><a href="https://msdn.microsoft.com/en-us/library/acy3edy3.aspx" target="_blank">C# Programming guide</a></p>
+                <p class="center"> ...also check out <a href="https://www.epicodus.com/" target="_blank"><img src= "img/epicodus-logo.png" style="width: 200px;height:100px"></a></p>
+            </div>
+
+            <div class="php" id="track">
+              <center><img src= "img/php.png" style="width: 375px;height:375px"></center>
+              <p>
+                PHP is a server-side scripting language and is usually considered beginner-friendly because it is easier to conceptualize what the PHP code will do, so it’s not difficult to pick up. Most websites have been built with PHP because the language is heavily specialized for the web.
+
+                Facebook, Wikipedia, Yahoo!, Tumblr, WordPress, and more have been built with PHP.
+              </p>
+              <p class="center">
+                Try doing your own research to see if this is a good fit for you!
+              </p>
+              <h2 class="center">Resources<h2>
+                <p class="center"><a href="https://en.wikipedia.org/wiki/PHP" target="_blank">Wikipedia Page</a></p>
+                <p class="center"><a href="http://php.net/manual/en/faq.general.php" target="_blank">PHP Website</a></p>
+                <p class="center"> ...also check out <a href="https://www.epicodus.com/" target="_blank"><img src= "img/epicodus-logo.png" style="width: 200px;height:100px"></a></p>
+            </div>
+
+            <div class="ruby" id="track">
+              <center><img src= "img/ruby.png" style="width: 375px;height:375px"></center>
+              <p>
+                Developed to make developers have fun and be productive at the same time, Ruby was made popular by the Ruby on Rails framework, a full-stack web framework optimized for programming happiness. As Ruby reads like English and Rails has tools that make common development tasks easier out-of-the-box, many would recommend learning Ruby as your first programming language.
+
+                Ruby is mostly used for backend development, and popular sites such as Airbnb, Shopify, Bloomberg, Hulu, Slideshare, and more have been built with Ruby on Rails.
+              </p>
+              <p class="center">
+                Try doing your own research to see if this is a good fit for you!
+              </p>
+              <h2 class="center">Resources<h2>
+                <p class="center"><a href="https://en.wikipedia.org/wiki/Ruby" target="_blank">Wikipedia Page</a></p>
+                <p class="center"><a href="http://rubyonrails.org/" target="_blank">Ruby on Rails download/info</a></p>
+                <p class="center"> ...also check out <a href="https://www.epicodus.com/" target="_blank"><img src= "img/epicodus-logo.png" style="width: 200px;height:100px"></a></p>
+            </div>
+
+            <div class=fillout id="track">
+              <div class="alert alert-danger">
+                <center><strong>Please fill out all fields!</strong><center>
+              </div>
+            </div>
           </div>
-          <button type="submit" class="btn btn-primary btn-lg">Results</button>
-        </form>
-
-        <center><h2 id ="try">Try looking in to...</h2></center>
-
-        <div class="cs" id="track">
-          <center><img src= "img/cs.png" style="width: 375px;height:375px"></center>
-          <p>
-            C# is developed to be used for Microsofts NET framework, which runs primarily on Microsoft Windows.
-
-            C# is used for web development, game development, and general Microsoft development. Although Microsoft was not known for being cross-platform compatible in the past, Xamarin has been working on an open-source project called Mono, which aims to port C# to other platforms and bring better development tools to Linux developers. Recently you can also use C# to build native mobile apps for iOS and Android through Xamarin.
-          </p>
-          <p class="center">
-            Try doing your own research to see if this is a good fit for you!
-          </p>
-          <h2 class="center">Resources<h2>
-            <p class="center"><a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">Wikipedia Page</a></p>
-            <p class="center"><a href="https://msdn.microsoft.com/en-us/library/acy3edy3.aspx" target="_blank">C# Programming guide</a></p>
-        </div>
-
-        <div class="php" id="track">
-          <center><img src= "img/php.png" style="width: 375px;height:375px"></center>
-          <p>
-            PHP is a server-side scripting language and is usually considered beginner-friendly because it’s easier to conceptualize what the PHP code will do, so it’s not difficult to pick up. Most websites have been built with PHP because the language is heavily specialized for the web.
-
-            Facebook, Wikipedia, Yahoo!, Tumblr, WordPress, and more have been built with PHP.
-          </p>
-          <p class="center">
-            Try doing your own research to see if this is a good fit for you!
-          </p>
-          <h2 class="center">Resources<h2>
-            <p class="center"><a href="https://en.wikipedia.org/wiki/PHP" target="_blank">Wikipedia Page</a></p>
-            <p class="center"><a href="http://php.net/manual/en/faq.general.php" target="_blank">PHP Website</a></p>
-        </div>
-
-        <div class="ruby" id="track">
-          <center><img src= "img/ruby.png" style="width: 375px;height:375px"></center>
-          <p>
-            Developed to make developers have fun and be productive at the same time, Ruby was made popular by the Ruby on Rails framework, a full-stack web framework optimized for programming happiness. As Ruby reads like English and Rails has tools that make common development tasks easier “out-of-the-box”, many would recommend learning Ruby as your first programming language.
-
-            Ruby is mostly used for backend development, and popular sites such as Airbnb, Shopify, Bloomberg, Hulu, Slideshare, and more have been built with Ruby on Rails.
-          </p>
-          <p class="center">
-            Try doing your own research to see if this is a good fit for you!
-          </p>
-          <h2 class="center">Resources<h2>
-            <p class="center"><a href="https://en.wikipedia.org/wiki/Ruby" target="_blank">Wikipedia Page</a></p>
-            <p class="center"><a href="http://rubyonrails.org/" target="_blank">Ruby on Rails download/info</a></p>
-        </div>
-
-        <div class=fillout id="track">
-          <h2>Please fill out all fields!</h2>
         </div>
       </div>
     </div>
