@@ -10,7 +10,7 @@
   <body>
     <h1>Which Epicodus track will be right for you?</h1>
     <div class="container">
-      <form class="questions">
+      <form id="questions">
         <div class="radio">
           <h2>Question 1: Which enviroment fits you more?</h2>
           <p><input type="radio" name="ques1" value="c#php">
@@ -26,13 +26,26 @@
           <p><input type="radio" name="ques2" value="c#">
           Internal Software</p>
 
-          <h2>Question 3: Which enviroment fits you more?</h2>
-          <p><input type="radio" name="ques3" value="c#php">
-          A large company, working with a large group</p>
+          <h2>Question 3: What is priority for you?</h2>
+          <p><input type="radio" name="ques3" value="c#">
+          Function over form</p>
           <p><input type="radio" name="ques3" value="ruby">
-          A small company. working with small team of people</p>
+          Staying up to date</p>
+          <p><input type="radio" name="ques3" value="php">
+          Easily understanding something</p>
         </div>
+        <button type="submit" class="btn">Results!</button>
       </form>
+      <h2 id ="try">Try looking in to...</h2>
+      <div class="c#" id="track">
+        <img src= "img/cs.png" style="width: 375px;height:375px">
+      </div>
+      <div class="php" id="track">
+        <img src= "img/php.png" style="width: 375px;height:375px">
+      </div>
+      <div class="ruby" id="track">
+        <img src= "img/ruby.png" style="width: 375px;height:375px">
+      </div>
     </div>
   </body>
 </html>
