@@ -1,3 +1,24 @@
 #track, #try {
   display: none;
 }
+
+body {
+  color: rgb(203, 208, 216);
+  background-color: rgb(135, 162, 209);
+}
+
+.jumbotron {
+  background-color: rgb(16, 48, 104);
+}
+
+.well {
+  background-color: rgb(94, 98, 104);
+}
+
+#track {
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}

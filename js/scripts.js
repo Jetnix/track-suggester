@@ -9,6 +9,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".cs").show();
   }
@@ -17,6 +18,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".php").show();
   }
@@ -24,6 +26,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
@@ -31,6 +34,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".cs").show();
   }
@@ -38,6 +42,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".php").show();
   }
@@ -45,6 +50,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".cs").show();
   }
@@ -52,6 +58,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".php").show();
   }
@@ -59,6 +66,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
@@ -66,6 +74,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
@@ -73,13 +82,15 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
   else if (ques1 === "ruby" && ques2 === "cs" && ques3 === "php") {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
-    $("#questions").hide();
+    $("#questions").hide()
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
@@ -87,6 +98,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
@@ -94,6 +106,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".cs").show();
   }
@@ -101,6 +114,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".php").show();
   }
@@ -108,6 +122,7 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
   }
@@ -115,8 +130,17 @@ $(document).ready(function() {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
+    $(".fillout").hide();
     $("#try").show();
     $(".ruby").show();
+  }
+  else if (ques1 === "csphp" && ques2 === "ruby" && ques3 === "cs") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $(".fillout").hide();
+    $("#try").show();
+    $(".cs").show();
   }
   else {
     console.log(ques1, ques2, ques3);

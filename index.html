@@ -8,51 +8,75 @@
     <title>Track Suggester</title>
   </head>
   <body>
-    <center><h1>Which Epicodus track will be right for you?</h1></center>
-    <div class="container">
-      <form id="questions">
-        <div class="radio">
-          <h2>Question 1: Which enviroment fits you more?</h2>
-          <p><input type="radio" name="ques1" value="csphp">
-          A large company, working with a large group</p>
-          <p><input type="radio" name="ques1" value="ruby">
-          A small company. working with small team of people</p>
+    <div class= "jumbotron">
+      <div class="container">
+      <center><h1>Which Epicodus track will be right for you?</h1></center>
+      </div>
+    </div>
+    <div class="well">
+      <div class="container">
+        <form id="questions">
+          <div class="radio">
+            <h2>Question 1: Which enviroment fits you more?</h2>
+            <p><input type="radio" name="ques1" value="csphp">
+            A large company, working with a large group</p>
+            <p><input type="radio" name="ques1" value="ruby">
+            A small company. working with small team of people</p>
 
-          <h2>Question 2: What would you prefer to work on?</h2>
-          <p><input type="radio" name="ques2" value="php">
-          Websites</p>
-          <p><input type="radio" name="ques2" value="ruby">
-          Applications</p>
-          <p><input type="radio" name="ques2" value="cs">
-          Internal Software</p>
+            <h2>Question 2: What would you prefer to work on?</h2>
+            <p><input type="radio" name="ques2" value="php">
+            Websites</p>
+            <p><input type="radio" name="ques2" value="ruby">
+            Applications</p>
+            <p><input type="radio" name="ques2" value="cs">
+            Internal Software</p>
 
-          <h2>Question 3: What is priority for you?</h2>
-          <p><input type="radio" name="ques3" value="cs">
-          Function over form</p>
-          <p><input type="radio" name="ques3" value="ruby">
-          Staying up to date</p>
-          <p><input type="radio" name="ques3" value="php">
-          Easily understanding something</p>
+            <h2>Question 3: What is priority for you?</h2>
+            <p><input type="radio" name="ques3" value="cs">
+            Function over form</p>
+            <p><input type="radio" name="ques3" value="ruby">
+            Staying up to date</p>
+            <p><input type="radio" name="ques3" value="php">
+            Easily understanding something</p>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">Results</button>
+        </form>
+
+        <center><h2 id ="try">Try looking in to...</h2></center>
+
+        <div class="cs" id="track">
+          <center><img src= "img/cs.png" style="width: 375px;height:375px"></center>
+          <p>
+            <strong>C#</strong> (pronounced as see sharp) is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines. It was developed by Microsoft within its .NET initiative and later approved as a standard by Ecma (ECMA-334) and ISO (ISO/IEC 23270:2006). C# is one of the programming languages designed for the Common Language Infrastructure.
+          </p>
+          <p class="center">
+            Try doing your own research to see if this is a good fit for you!
+          </p>
         </div>
-        <button type="submit" class="btn">Results!</button>
-      </form>
 
-      <center><h2 id ="try">Try looking in to...</h2></center>
+        <div class="php" id="track">
+          <center><img src= "img/php.png" style="width: 375px;height:375px"></center>
+          <p>
+            <strong>PHP</strong> is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. Originally created by Rasmus Lerdorf in 1994, the PHP reference implementation is now produced by The PHP Development Team. PHP originally stood for Personal Home Page, but it now stands for the recursive acronym PHP: Hypertext Preprocessor.
+          </p>
+          <p class="center">
+            Try doing your own research to see if this is a good fit for you!
+          </p>
+        </div>
 
-      <div class="cs" id="track">
-        <img src= "img/cs.png" style="width: 375px;height:375px">
-      </div>
+        <div class="ruby" id="track">
+          <center><img src= "img/ruby.png" style="width: 375px;height:375px"></center>
+          <p>
+            <strong>Ruby</strong> is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+          </p>
+          <p class="center">
+            Try doing your own research to see if this is a good fit for you!
+          </p>
+        </div>
 
-      <div class="php" id="track">
-        <img src= "img/php.png" style="width: 375px;height:375px">
-      </div>
-
-      <div class="ruby" id="track">
-        <img src= "img/ruby.png" style="width: 375px;height:375px">
-      </div>
-
-      <div class=fillout id="track">
-        <h2>Please fill out all fields!</h2>
+        <div class=fillout id="track">
+          <h2>Please fill out all fields!</h2>
+        </div>
       </div>
     </div>
   </body>
