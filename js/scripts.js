@@ -142,6 +142,14 @@ $(document).ready(function() {
     $("#try").show();
     $(".cs").show();
   }
+  else if (ques1 === "csphp" && ques2 === "ruby" && ques3 === "php") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $(".fillout").hide();
+    $("#try").show();
+    $(".php").show();
+  }
   else {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
