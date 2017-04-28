@@ -5,20 +5,123 @@ $(document).ready(function() {
   var ques3 = $("input:radio[name=ques3]:checked").val();
 
 
-  if (ques1 === "c#php" && ques2 === "c#" && ques3 === "c#") {
+  if (ques1 === "csphp" && ques2 === "cs" && ques3 === "cs") {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
     $("#try").show();
-    $(".c#").show();
+    $(".cs").show();
   }
 
-  else if (ques1 === "c#php" && ques2 === "php" && ques3 === "php") {
+  else if (ques1 === "csphp" && ques2 === "php" && ques3 === "php") {
     console.log(ques1, ques2, ques3);
     $("#track").hide();
     $("#questions").hide();
     $("#try").show();
     $(".php").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "ruby" && ques3 === "ruby") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "csphp" && ques2 === "cs" && ques3 === "ruby") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".cs").show();
+  }
+  else if (ques1 === "csphp" && ques2 === "php" && ques3 === "ruby") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".php").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "cs" && ques3 === "cs") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".cs").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "php" && ques3 === "php") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".php").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "php" && ques3 === "ruby") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "cs" && ques3 === "ruby") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "csphp" && ques2 === "ruby" && ques3 === "ruby") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "cs" && ques3 === "php") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "php" && ques3 === "cs") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "csphp" && ques2 === "php" && ques3 === "cs") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".cs").show();
+  }
+  else if (ques1 === "csphp" && ques2 === "cs" && ques3 === "php") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".php").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "ruby" && ques3 === "cs") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else if (ques1 === "ruby" && ques2 === "ruby" && ques3 === "php") {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $("#questions").hide();
+    $("#try").show();
+    $(".ruby").show();
+  }
+  else {
+    console.log(ques1, ques2, ques3);
+    $("#track").hide();
+    $(".fillout").show();
   }
   event.preventDefault();
   });
